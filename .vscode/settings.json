@@ -1,0 +1,134 @@
+{
+  // EMMET
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  // INTERFACE
+  "explorer.compactFolders": false,
+  "extensions.ignoreRecommendations": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "monospace",
+  // GIT
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  // LANGUAGES/FRAMEWORKS
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.suggest.autoImports": true,
+  "typescript.tsserver.log": "off",
+  // EDITOR
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  // "editor.lineHeight": 22,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.suggestSelection": "first",
+  "editor.rulers": [80, 120],
+  // FILES
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  }
+  // ESLINT
+  // "eslint.validate": [
+  //   "javascript",
+  //   "javascriptreact"
+  //   // "graphql"
+  // ]
+  // "[prisma]": {
+  //   "editor.formatOnSave": true
+  // },
+  // "workbench.startupEditor": "newUntitledFile",
+  // "editor.parameterHints.enabled": false,
+  // "editor.renderLineHighlight": "gutter",
+  // "material-icon-theme.languages.associations": {
+  //   "dotenv": "tune"
+  // },
+  // "material-icon-theme.files.associations": {
+  //   "tsconfig.json": "tune",
+  //   "*.webpack.js": "webpack",
+  //   "*.proto": "3d",
+  //   "ormconfig.json": "database"
+  // },
+  // "workbench.editor.labelFormat": "short",
+  // "editor.fontLigatures": true,
+  // "emmet.includeLanguages": {
+  //   "javascript": "javascriptreact"
+  // },
+  // "material-icon-theme.activeIconPack": "nest",
+  // "explorer.confirmDelete": false,
+  // "gitlens.codeLens.recentChange.enabled": false,
+  // "terminal.integrated.showExitAlert": false,
+  // "terminal.integrated.env.osx": {
+  //   "FIG_NEW_SESSION": "1"
+  // },
+  // "material-icon-theme.folders.associations": {
+  //   "adapters": "contract",
+  //   "grpc": "pipe",
+  //   "kube": "kubernetes",
+  //   "main": "lib",
+  //   "websockets": "pipe",
+  //   "implementations": "core",
+  //   "protos": "pipe",
+  //   "entities": "class",
+  //   "kafka": "pipe",
+  //   "use-cases": "functions",
+  //   "migrations": "tools",
+  //   "schemas": "class",
+  //   "useCases": "functions",
+  //   "eslint-config": "tools",
+  //   "typeorm": "database",
+  //   "_shared": "shared",
+  //   "mappers": "meta",
+  //   "fakes": "mock",
+  //   "modules": "components",
+  //   "subscribers": "messages",
+  //   "domain": "class",
+  //   "protocols": "contract",
+  //   "infra": "app",
+  //   "view-models": "views",
+  //   "presentation": "template",
+  //   "dtos": "typescript",
+  //   "http": "container",
+  //   "providers": "include",
+  //   "factories": "class",
+  //   "repositories": "mappings"
+  // },
+  // "editor.acceptSuggestionOnCommitCharacter": false,
+  // "editor.accessibilitySupport": "off",
+  // "explorer.confirmDragAndDrop": false,
+  // "editor.semanticHighlighting.enabled": false,
+  // "breadcrumbs.enabled": true,
+  // "workbench.productIconTheme": "Default",
+  // "editor.fontFamily": "JetBrains Mono",
+  // "gitlens.codeLens.authors.enabled": false,
+  // "files.exclude": {
+  //   "**\/CVS": true,
+  //   "**\/.DS_Store": true,
+  //   "**\/.hg": true,
+  //   "**\/.svn": true,
+  //   "**\/.git": true,
+  //   // "node_modules": true
+  // },
+  // "gitlens.codeLens.enabled": false,
+  // "workbench.iconTheme": "vs-seti",
+  // "editor.minimap.enabled": false,
+  // "terminal.integrated.gpuAcceleration": "off",
+  // "terminal.integrated.defaultProfile.osx": "fish",
+  // "[jsonc]": {
+  //   "editor.defaultFormatter": "vscode.json-language-features"
+  // },
+  // "workbench.colorTheme": "Dracula",
+  // "[json]": {
+  //   "editor.defaultFormatter": "vscode.json-language-features"
+  // },
+  // "window.commandCenter": true,
+}
